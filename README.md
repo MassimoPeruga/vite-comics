@@ -1,7 +1,5 @@
-# Vue 3 + Vite
+# Vite DC Comics
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Crezione un nuovo progetto utilizzando Vite e Vue 3 nel quale sono definiti i componenti necessari per strutturare il layout come da screenshot allegato. Completata la struttura, si passa al primo utilizzo si sass.
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+![Screen](./src/assets/img/dc-comics-empty-layout.png)
