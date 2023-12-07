@@ -11,11 +11,18 @@ export default {
 </script>
 
 <template>
-    <Header />
-    <Footer />
+    <div id="container">
+        <Header />
+        <Footer />
+    </div>
 </template>
 
 <style lang="scss">
 @use './scss/style.scss' as *;
 @use './scss/_partials/variables.scss' as *;
+
+#container {
+    width: 70%;
+    margin: 0 auto;
+}
 </style>

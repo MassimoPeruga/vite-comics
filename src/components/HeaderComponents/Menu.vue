@@ -73,28 +73,18 @@ ul {
     list-style: none;
     display: flex;
     gap: 35px;
-    height: 100%;
-    align-items: center;
 
     a {
         text-decoration: none;
         color: #464646;
-    }
-
-    li {
-        border-bottom: 5px solid transparent;
+        display: inline-block;
         height: 100%;
-        display: flex;
-        align-items: center;
-        cursor: pointer;
+        line-height: 120px;
+        border-bottom: 5px solid transparent;
 
         &:hover {
             border-color: $blue-dc;
-
-            a {
-                color: $blue-dc;
-            }
-
+            color: $blue-dc;
         }
     }
 }
