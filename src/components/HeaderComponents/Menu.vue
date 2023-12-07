@@ -80,10 +80,11 @@ ul {
         display: inline-block;
         height: 100%;
         line-height: 120px;
+        border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
 
         &:hover {
-            border-color: $blue-dc;
+            border-bottom: 5px solid $blue-dc;
             color: $blue-dc;
         }
     }
