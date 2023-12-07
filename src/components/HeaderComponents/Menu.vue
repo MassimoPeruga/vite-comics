@@ -73,6 +73,11 @@ ul {
     list-style: none;
     display: flex;
     gap: 35px;
+    height: 100%;
+
+    li {
+        height: 100%;
+    }
 
     a {
         text-decoration: none;
@@ -82,6 +87,7 @@ ul {
         line-height: 120px;
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
+        text-transform: uppercase;
 
         &:hover {
             border-bottom: 5px solid $blue-dc;

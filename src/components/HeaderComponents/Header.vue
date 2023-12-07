@@ -11,10 +11,12 @@ export default {
 </script>
 
 <template>
-    <header>
-        <Logo />
-        <Menu />
-    </header>
+    <div class="container">
+        <header>
+            <Logo />
+            <Menu />
+        </header>
+    </div>
 </template>
 
 <style lang="scss">

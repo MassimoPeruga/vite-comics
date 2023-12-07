@@ -1,15 +1,21 @@
 <script >
+import Lists from './Lists.vue';
+import Buttons from './Buttons.vue';
 export default {
     name: 'Footer',
-    data() {
-        return {
-
-        }
-    },
+    components: {
+        Lists,
+        Buttons,
+    }
 };
 </script>
 
-<template></template>
+<template>
+    <footer>
+        <Lists />
+        <Buttons />
+    </footer>
+</template>
 
 <style lang="scss">
 @use '../../scss/_partials/variables.scss' as *;
