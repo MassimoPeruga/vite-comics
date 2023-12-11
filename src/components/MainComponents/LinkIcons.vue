@@ -75,7 +75,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../../assets/scss/_partials/variables' as *;
+@use '../../assets/scss/partials/variables' as *;
 
 section {
     background-color: $blue-dc;
