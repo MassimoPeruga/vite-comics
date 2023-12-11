@@ -16,7 +16,3 @@ export default {
         <Buttons />
     </footer>
 </template>
-
-<style lang="scss">
-@use '../../scss/_partials/variables.scss' as *;
-</style>
