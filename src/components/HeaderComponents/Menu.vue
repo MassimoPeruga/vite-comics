@@ -67,10 +67,9 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../../scss/_partials/variables.scss' as *;
+@use '../../assets/scss/_partials/variables' as *;
 
 ul {
-    list-style: none;
     display: flex;
     gap: 35px;
     height: 100%;
@@ -80,7 +79,6 @@ ul {
     }
 
     a {
-        text-decoration: none;
         color: #464646;
         display: inline-block;
         height: 100%;

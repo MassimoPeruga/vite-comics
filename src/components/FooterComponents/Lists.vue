@@ -203,12 +203,10 @@ section {
                 }
 
                 ul {
-                    list-style: none;
                     margin: 15px 0 25px 0;
 
                     a {
                         color: inherit;
-                        text-decoration: none;
                         opacity: .5;
 
 

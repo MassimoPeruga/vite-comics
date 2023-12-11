@@ -75,7 +75,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../../scss/_partials/variables.scss' as *;
+@use '../../assets/scss/_partials/variables' as *;
 
 section {
     background-color: $blue-dc;
@@ -83,7 +83,6 @@ section {
 
 ul {
     display: flex;
-    list-style: none;
     height: 155px;
     justify-content: space-between;
     align-items: center;
@@ -96,7 +95,6 @@ li {
 }
 
 img {
-    display: block;
     height: 100%;
 
     &.visa {
@@ -106,7 +104,6 @@ img {
 
 a {
     height: 100%;
-    text-decoration: none;
     text-transform: uppercase;
     color: white;
     display: flex;

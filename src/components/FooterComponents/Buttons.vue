@@ -76,7 +76,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../../scss/_partials/variables.scss' as *;
+@use '../../assets/scss/_partials/variables' as *;
 
 section {
     background-color: #303030;
@@ -93,7 +93,6 @@ section {
             all: unset;
 
             a {
-                text-decoration: none;
                 color: inherit;
                 padding: 15px;
                 border: 2px solid $blue-dc;
@@ -110,13 +109,11 @@ section {
             }
 
             ul {
-                list-style: none;
                 display: flex;
                 align-items: center;
                 gap: 15px;
 
                 img {
-                    display: block;
                     width: 35px;
                 }
             }

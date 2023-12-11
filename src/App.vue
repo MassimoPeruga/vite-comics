@@ -17,8 +17,3 @@ export default {
     <Main />
     <Footer />
 </template>
-
-<style lang="scss">
-@use './scss/style.scss' as *;
-@use './scss/_partials/variables.scss' as *;
-</style>
