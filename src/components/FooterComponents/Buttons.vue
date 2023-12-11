@@ -57,7 +57,7 @@ export default {
 
 <template>
     <section>
-        <div class="container">
+        <nav class="container">
             <button>
                 <a href="#">Sign-up now!</a>
             </button>
@@ -71,7 +71,7 @@ export default {
                     </li>
                 </ul>
             </div>
-        </div>
+        </nav>
     </section>
 </template>
 

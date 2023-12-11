@@ -8,17 +8,20 @@ export default {
 <template>
     <section>
         <div class="container">
-            <h2>
-                --&gt;content goes here&lt;--
-            </h2>
+
         </div>
     </section>
 </template>
 
 <style lang="scss" scoped>
+@use '../../assets/scss/partials/variables' as *;
+
 section {
     background-color: #1c1c1c;
-    padding: 50px 0;
     color: white;
+
+    .container {
+        padding: 50px 15px 20px 15px;
+    }
 }
 </style>

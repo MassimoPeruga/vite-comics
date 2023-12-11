@@ -158,7 +158,7 @@ export default {
 <template>
     <section>
         <div class="container">
-            <div id="col-left">
+            <nav id="col-left">
                 <div class="element" v-for="element in lists">
                     <h5>{{ element.title }}</h5>
                     <ul>
@@ -167,7 +167,7 @@ export default {
                         </li>
                     </ul>
                 </div>
-            </div>
+            </nav>
             <img src="../../assets/img/dc-logo-bg.png" alt="Logo Big">
         </div>
     </section>

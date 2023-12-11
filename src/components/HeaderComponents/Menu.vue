@@ -67,6 +67,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../../assets/scss/partials/variables' as *;
+
 ul {
     display: flex;
     gap: 35px;
