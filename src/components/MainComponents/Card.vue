@@ -10,9 +10,7 @@ export default {
 
 <template>
     <li>
-        <div class="image-container">
-            <img :src="image" :alt="title">
-        </div>
+        <img :src="image" :alt="title">
         <h4>{{ title }}</h4>
     </li>
 </template>
